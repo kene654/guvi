@@ -1,4 +1,4 @@
-class leapyear:
+class leapyr:
     def __init__(self):
         self.year= int(input())
     def find(self):
@@ -7,5 +7,5 @@ class leapyear:
         else:
             print("no")
 
-lp= leapyear()
+lp= leapyr()
 lp.find()
