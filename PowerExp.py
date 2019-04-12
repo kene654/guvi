@@ -1,4 +1,4 @@
-class powerexp:
+class powerexpr:
     def __init__(self):
         self.nkarr=input()
         self.nkarr=(self.nkarr).split(" ")
@@ -9,5 +9,5 @@ class powerexp:
             mul=mul*self.nkarr[0]
         print(mul)
 
-p= powerexp()
+p= powerexpr()
 p.calc()
