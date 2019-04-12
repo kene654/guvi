@@ -1,4 +1,4 @@
-class Alphabet:
+class Alphab:
     def __init__(self):
         self.str= input()
         self.vowels=["a","e","i","o","u"]
@@ -12,5 +12,5 @@ class Alphabet:
         else:
             print("invalid")
 
-a= Alphabet()
+a= Alphab()
 a.check()
