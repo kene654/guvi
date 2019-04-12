@@ -1,4 +1,4 @@
-class arraysum:
+class arraysums:
     def __init__(self):
         self.nkarr=input()
         self.nkarr=(self.nkarr).split(" ")
@@ -12,5 +12,5 @@ class arraysum:
             sumn=sumn+self.arr[i]
         print(sumn)
 
-a=arraysum()
+a=arraysums()
 a.sumit()
