@@ -1,5 +1,5 @@
 from string import punctuation as p
-class StringDot:
+class Stringdot:
     def __init__(self):
         self.str=input()
     def AddDot(self):
@@ -8,5 +8,5 @@ class StringDot:
                 print(self.str+p[i])
                 break
 
-s=StringDot()
+s=Stringdot()
 s.AddDot()
