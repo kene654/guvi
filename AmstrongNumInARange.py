@@ -1,4 +1,4 @@
-class amstrongnum:
+class amstrongnumr:
     def __init__(self):
         self.numchar=input()
         self.numchar=[int(i) for i in (self.numchar).split(" ")]
@@ -27,5 +27,5 @@ class amstrongnum:
                 print(lst[i],end=" ")
             
 
-cd=amstrongnum()
+cd=amstrongnumr()
 cd.findamstrong()
