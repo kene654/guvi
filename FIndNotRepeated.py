@@ -1,4 +1,4 @@
-class FindNotRepeated:
+class FindNotRepeat:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -17,6 +17,6 @@ class FindNotRepeated:
                 break
         print(l)        
 
-ft=FindNotRepeated()
+ft=FindNotRepeat()
 ft.ToFind()
     
