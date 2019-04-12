@@ -1,4 +1,4 @@
-class StrEvenOddSwap:
+class StrEvenOddswap:
     def __init__(self):
         self.inp=input()
 
@@ -12,7 +12,7 @@ class StrEvenOddSwap:
         self.inp="".join(inplist)
         print(self.inp)
 
-s=StrEvenOddSwap()
+s=StrEvenOddswap()
 s.StrSwap()
 
     
