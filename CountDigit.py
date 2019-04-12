@@ -1,4 +1,4 @@
-class countdigit:
+class countdigits:
     def __init__(self):
         self.numchar=input()
     def count(self):
@@ -10,5 +10,5 @@ class countdigit:
                 num=int(num/10)
         print(countnum)
 
-cd=countdigit()
+cd=countdigits()
 cd.count()
