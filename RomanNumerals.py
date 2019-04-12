@@ -1,4 +1,4 @@
-class RomNum:
+class RomNumer:
     def __init__(self):
         self.rom={'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M':1000}
         self.inp=input()
@@ -15,5 +15,5 @@ class RomNum:
                     num=num-self.rom[self.inp[i]]
         print(num)
 
-r=RomNum()
+r=RomNumer()
 r.findNum()
