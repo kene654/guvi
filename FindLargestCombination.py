@@ -1,4 +1,4 @@
-class LargestNumComb:
+class LargestNumCombi:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -13,5 +13,5 @@ class LargestNumComb:
         narr=int(narr)
         print(narr)
 
-ln=LargestNumComb()
+ln=LargestNumCombi()
 ln.FindComb()
