@@ -1,4 +1,4 @@
-class Largest:
+class Larget:
     def __init__(self):
         self.n=input()
         self.nlist= (self.n).split(" ")
@@ -11,6 +11,6 @@ class Largest:
         else:
             print(self.nlist[2])
 
-l= Largest()
+l= Larget()
 l.find()
         
