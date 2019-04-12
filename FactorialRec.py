@@ -1,4 +1,4 @@
-def findfactor(n):
+def findfactori(n):
     if n==1:
         return n
     else:
@@ -10,5 +10,5 @@ if(n<0):
 elif n==0:
     print(1)
 else:
-    print(findfactor(n))
+    print(findfactori(n))
 
