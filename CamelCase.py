@@ -1,4 +1,4 @@
-class CamelCase:
+class Camelcase:
     def __init__(self):
         self.sen=input()
 
@@ -16,5 +16,5 @@ class CamelCase:
         self.sen=" ".join(inp_list)
         print(self.sen)
 
-c=CamelCase()
+c=Camelcase()
 c.Casing()
