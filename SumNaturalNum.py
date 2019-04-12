@@ -1,4 +1,4 @@
-class sumnat:
+class sumnatur:
     def __init__(self):
         self.n=int(input())
     def sumnum(self):
@@ -7,6 +7,6 @@ class sumnat:
             sumn=sumn+i
         print(sumn)
 
-s=sumnat()
+s=sumnatur()
 s.sumnum()
 
