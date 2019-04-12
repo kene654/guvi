@@ -1,4 +1,4 @@
-class printodds:
+class printprimes:
     def __init__(self):
         self.nq=input()
         self.nq=[int(i) for i in self.nq.split(" ")]
@@ -19,6 +19,6 @@ class printodds:
             else:
                 print(lst[i],end=" ")
 
-p=printodds()
+p=printprimes()
 p.printing()
 
