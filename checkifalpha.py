@@ -1,4 +1,4 @@
-class Alpha:
+class Alphab:
     def __init__(self):
         self.alphabets="abcdefghijklmnopqrstuvwxyz"
         self.inp=input()
@@ -8,5 +8,5 @@ class Alpha:
         else:
             print("No")
 
-a1= Alpha()
+a1= Alphab()
 a1.checkalpha()
