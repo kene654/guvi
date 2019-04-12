@@ -1,4 +1,4 @@
-class amstrongnum:
+class amstrongnumb:
     def __init__(self):
         self.numchar=input()
     def findamstrong(self):
@@ -20,5 +20,5 @@ class amstrongnum:
             print("no")
             
 
-cd=amstrongnum()
+cd=amstrongnumb()
 cd.findamstrong()
