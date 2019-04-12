@@ -1,4 +1,4 @@
-class palin:
+class palindro:
     def __init__(self):
         self.N=int(input())
     def palintest(self):
@@ -13,6 +13,6 @@ class palin:
         else:
             print("no")
 
-p=palin()
+p=palindro()
 p.palintest()
         
