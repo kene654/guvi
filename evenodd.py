@@ -1,4 +1,4 @@
-class checkvalid:
+class checkvalidity:
     def __init__(self):
         self.num=int(input())
     def checking(self):
@@ -9,5 +9,5 @@ class checkvalid:
         else:
                print("Odd")
                
-c1=checkvalid()
+c1=checkvalidity()
 c1.checking()
